@@ -1,0 +1,85 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+
+
+.cabeçalho{
+    border: 2px dashed grey;
+}
+
+.navegação{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.logo{
+    margin-left: 10px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    border: 10px;
+    
+
+} 
+
+li{
+    font-size: 30px;
+    list-style: none; 
+    
+    
+}
+
+
+main{ 
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+
+    
+} 
+
+section{
+    border: 3px solid rgb(97, 91, 91); 
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-direction: column; 
+    display: flex; 
+    justify-content: center;
+}
+
+ul{
+    margin: 30px;
+}
+
+.salary{
+    display: flex; 
+    align-items: center;
+
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: rgb(58, 4, 58);
+    color: white;
+    padding: 10px;
+} 
+
+h3{
+    margin: 20px; 
+    background-color: rgb(68, 233, 68);
+    color: black;
+    padding: 3px; 
+    border-radius: 3px;
+}
